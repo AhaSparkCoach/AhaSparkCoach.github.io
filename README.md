@@ -50,7 +50,7 @@ ACE系统是让"三剑客"工具从知识变成能力的转化方法：
 
 ## 博客运行
 
-本博客基于 Jekyll 构建。
+本博客基于 Jekyll 构建，访问地址：[https://atomspeak.github.io](https://atomspeak.github.io)
 
 ### 本地运行
 
@@ -62,7 +62,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-访问 `http://localhost:4000` 查看博客。
+本地启动后访问 `http://localhost:4000` 查看博客。
 
 ## License
 
