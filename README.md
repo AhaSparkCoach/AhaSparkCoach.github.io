@@ -1,9 +1,9 @@
-[Hux Blog](https://huangxuan.me)
+[极简沟通 | Atomspeak](https://atomspeak.github.io)
 ================================
 
-> I never expected this to become popular.
+> 不是学得更多，而是懂得更少但更深
 
-![](http://huangxuan.me/img/blog-desktop.jpg)
+![](http://atomspeak.github.io/img/blog-desktop.jpg)
 
 
 [User Manual 👉](_doc/Manual.md)
