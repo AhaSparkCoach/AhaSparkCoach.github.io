@@ -1,11 +1,11 @@
 # Site settings
-title: 极简沟通
-SEOTitle: 极简沟通 | Atomspeak
+title: AhaSparkCoach
+SEOTitle: AhaSparkCoach | 啊哈教练
 header-img: img/post-bg-universe.jpg
-email: atomspeak@example.com
-description: "极简沟通 - 让艰难复杂的沟通化繁为简 | 不是学得更多，而是懂得更少但更深"
-keyword: "极简沟通, 沟通技巧, 职场沟通, 亲密关系, 核心原则, 状态象限, 目标模型, ACE系统"
-url: "https://atomspeak.github.io" # your host, for absolute URL
+email: contact@ahasparkcoach.com
+description: "你懂那么多道理，为什么还是过不好这一生？啊哈教练不是告诉你答案，而是陪你走到改变发生的那个瞬间"
+keyword: "AhaSparkCoach, 啊哈教练, AI教练, 个人成长, 情绪管理, 沟通训练, 行为改变"
+url: "https://ahasparkcoach.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: atomspeak
-zhihu_username: atomspeak
-github_username: Atomspeak
-twitter_username: atomspeak
+weibo_username: 
+zhihu_username: 
+github_username: AhaSparkCoach
+twitter_username:
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -74,7 +74,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "让艰难复杂的沟通化繁为简"
+sidebar-about-description: "陪你成为那个你一直想成为的人"
 sidebar-avatar: /img/book-2.0.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
