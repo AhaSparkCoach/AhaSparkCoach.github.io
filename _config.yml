@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: atomspeak
+disqus_username: ahasparkcoach
 
 # Netease settings
 netease_comment: false
@@ -70,7 +70,7 @@ netease_comment: false
 
 # Google Analytics
 # ga_track_id: "UA-xxxxxx-xx" # Format: UA-xxxxxx-xx
-# ga_domain: atomspeak.github.io
+# ga_domain: ahasparkcoach.github.io
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.

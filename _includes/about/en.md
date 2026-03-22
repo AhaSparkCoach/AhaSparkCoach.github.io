@@ -1,65 +1,41 @@
-## About Atomspeak
+## About AhaSparkCoach
 
-**Atomspeak** is a minimalist communication methodology that simplifies difficult and complex conversations.
+**AhaSparkCoach** is an AI-powered personal growth coaching platform.
 
-> Learn less, but understand deeper
-
----
-
-### What We Truly Pursue
-
-What truly makes communication important is not communication itself, but the important people and relationships in our lives.
-
-Through communication, we build trust and understanding in intimate relationships; we create value and inspire others in our careers; we establish genuine connections as parents.
-
-**The starting point of Atomspeak is not teaching you how to speak, but helping you return to the core question: What do you truly want?**
+> You know so many truths, why is life still not working out?
 
 ---
 
-### Core Philosophy
+### Our Belief
 
-Atomspeak focuses on three key factors: **Belief, Object, Need**.
+You already know the principles. We believe what you need is action, practice, and a coach who keeps you accountable.
 
-| Key Factor | Why It Matters | Tool |
-|------------|----------------|------|
-| Belief | Determines how information is interpreted and expressed | Core Principles |
-| Object | Affects how information is received | State Quadrant |
-| Need | Determines communication purpose and strategy | Goal Model |
+**We don't tell you the answers. We walk with you to the moment when change happens.**
 
 ---
 
-### Three Tools
+### Our Approach
 
-- **Core Principles**: Establish the right belief foundation, win at the starting point
-- **State Quadrant**: Shift focus from yourself to others, create good processes
-- **Goal Model**: Identify essential needs, achieve goals
+AhaSparkCoach provides a three-level progressive growth path:
 
----
-
-### ACE System
-
-The ACE System transforms tools from knowledge into capability:
-
-- **A**ssess: Gather key information
-- **C**hoose: Make right decisions
-- **E**stablish: Achieve desired results
-
-**The goal is not to remember the tools, but to forget them—because the tools have become part of you.**
+| Level | Goal | Method |
+|-------|------|--------|
+| L1 See Yourself | Emotion recognition, behavior awareness | AI-guided reflection |
+| L2 Master Skills | Scenario simulation, instant feedback | Interactive training |
+| L3 Become Better You | Transcend techniques | Continuous growth companionship |
 
 ---
 
-### Applicable Scenarios
+### Why Choose Us
 
-Atomspeak is particularly effective in five difficult communication scenarios:
-
-1. Intense negative emotions
-2. Opposing positions
-3. Large cognitive differences
-4. Encountering rejection
-5. Disadvantaged position
-
-**If you can handle the most difficult situations, you can naturally handle simple ones.**
+- **Not just asking AI, but practicing with AI**
+- **We don't provide correct nonsense**
+- **We provide a training ground for real change**
 
 ---
 
-*"Our anxiety comes not from a particular result itself, but from not knowing how to respond to these results. Atomspeak is the compass that tells you what to do in any situation."*
+### Every "Aha" Moment
+
+Every "aha" moment is a moment when you meet a better version of yourself.
+
+**AhaSparkCoach — accompanying you to become the person you've always wanted to be.**

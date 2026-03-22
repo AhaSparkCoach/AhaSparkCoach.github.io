@@ -1,46 +1,115 @@
 ---
 layout: page
-description: "让艰难复杂的沟通化繁为简"
+description: "你懂那么多道理，为什么还是过不好这一生？啊哈教练不是告诉你答案，而是陪你走到改变发生的那个瞬间"
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {% if post.lang == 'en' %}
-                {{ post.content | strip_html | truncate:300 }}
-            {% else %}
-                {{ post.content | strip_html | truncate:200 }}
-            {% endif %}
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
+<!-- Hero 区 -->
+<section class="hero-section" style="text-align: center; padding: 80px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 16px; margin-bottom: 60px;">
+    <h1 style="font-size: 2.5em; margin-bottom: 20px; font-weight: 700;">你懂那么多道理，为什么还是过不好这一生？</h1>
+    <p style="font-size: 1.3em; margin-bottom: 40px; opacity: 0.95;">啊哈教练不是告诉你答案，而是陪你走到改变发生的那个瞬间</p>
+    <a href="#start" style="display: inline-block; padding: 16px 40px; background: white; color: #667eea; font-size: 1.1em; font-weight: 600; border-radius: 50px; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease;">开始你的改变</a>
+</section>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<style>
+.hero-section a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.pain-point {
+    background: #f8f9fa;
+    padding: 20px 30px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    font-size: 1.1em;
+    color: #555;
+    border-left: 4px solid #667eea;
+}
+.value-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.value-card:hover {
+    transform: translateY(-5px);
+}
+.level-card {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+}
+.level-number {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0 auto 20px;
+}
+</style>
+
+<!-- 痛点共鸣区 -->
+<section style="margin-bottom: 60px;">
+    <h2 style="font-size: 1.8em; margin-bottom: 30px; text-align: center;">你是否也有这样的困扰？</h2>
+    
+    <div class="pain-point">"我知道要控制情绪，但那一刻就是忍不住"</div>
+    <div class="pain-point">"我读了十本沟通书，面对老板还是张不开嘴"</div>
+    <div class="pain-point">"我想改变，但总是三分钟热度"</div>
+    
+    <p style="text-align: center; font-size: 1.2em; margin-top: 30px; color: #667eea; font-weight: 600;">——你缺少的不是道理，而是一个盯着你练的教练</p>
+</section>
+
+<!-- 价值主张区 -->
+<section style="margin-bottom: 60px;">
+    <h2 style="font-size: 1.8em; margin-bottom: 30px; text-align: center;">不只是问 AI，而是跟着 AI 练</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
+        <div class="value-card">
+            <h3 style="color: #667eea; margin-bottom: 15px;">我们不提供正确的废话</h3>
+            <p style="color: #666;">道理你都懂，我们需要的是行动</p>
+        </div>
+        <div class="value-card">
+            <h3 style="color: #667eea; margin-bottom: 15px;">我们提供让你真正改变的训练场</h3>
+            <p style="color: #666;">在模拟中练习，在反馈中成长</p>
+        </div>
+    </div>
+</section>
+
+<!-- 三层递进 -->
+<section style="margin-bottom: 60px;">
+    <h2 style="font-size: 1.8em; margin-bottom: 30px; text-align: center;">三层递进，循序渐进</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px;">
+        <div class="level-card">
+            <div class="level-number">L1</div>
+            <h3 style="margin-bottom: 15px; color: #333;">看见自己</h3>
+            <p style="color: #666;">情绪识别、行为觉察</p>
+        </div>
+        <div class="level-card">
+            <div class="level-number">L2</div>
+            <h3 style="margin-bottom: 15px; color: #333;">练就招式</h3>
+            <p style="color: #666;">场景模拟、即时反馈</p>
+        </div>
+        <div class="level-card">
+            <div class="level-number">L3</div>
+            <h3 style="margin-bottom: 15px; color: #333;">成为更好的你</h3>
+            <p style="color: #666;">无招胜有术</p>
+        </div>
+    </div>
+</section>
+
+<!-- 情感收尾 -->
+<section style="text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%); border-radius: 16px;">
+    <p style="font-size: 1.3em; color: #555; margin-bottom: 20px;">每一个"啊哈"瞬间</p>
+    <p style="font-size: 1.3em; color: #555; margin-bottom: 30px;">都是你与更好的自己相遇的时刻</p>
+    <h3 style="font-size: 2em; color: #667eea; margin-bottom: 10px;">AhaSparkCoach</h3>
+    <p style="font-size: 1.2em; color: #764ba2; font-weight: 500;">陪你成为那个你一直想成为的人</p>
+</section>
